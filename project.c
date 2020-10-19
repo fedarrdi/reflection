@@ -142,11 +142,11 @@ void move_vector(int x, int y, int x1, int y1,int px, int py)
 //------------------------------------------------------------------------------------------------------
 
 
-struct Line{ int x;int y;int x1;int y1;int
+struct Line { int x; int y; int x1; int y1; }
 
-int are2LinesColliding()
+int are2LinesColliding(struct Line a, struct Line b)
 {
-
+    int a = 
 }
 
 //-----------------------------------------------------------------------------------------------------
